@@ -12,3 +12,7 @@ const sidebar = document.getElementById('sidebar');
                     sidebar.classList.add('-translate-x-full');
                 }
             });
+
+            const d = new Date();
+              let year = d.getFullYear();
+              document.getElementById("timeF").innerHTML = year;
